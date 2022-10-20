@@ -1,0 +1,26 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Zirui's another amazing website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+Here's some words, write to me.
+
+I use [bing](bing.com)
+
+![Here's Yu](images/some.jpg)
+
+```{r}
+library(tidyverse)
+
+sample = rnorm(100)
+mean(sample)
+```
+
