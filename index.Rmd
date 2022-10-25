@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: yeti
 ---
 
 # This is Zirui's awesome website
@@ -17,6 +17,8 @@ I use [bing](bing.com)
 
 ![Here's Yu](images/some.jpg)
 
+<img src="images/some.jpg" style="width:75%">
+
 ```{r}
 library(tidyverse)
 
@@ -28,5 +30,4 @@ Here's a link to the about page: [about](about.html)
 
 I also made this[this page](this_page.com)
 
-Hi
 
